@@ -35,7 +35,7 @@ export default function App() {
         <Links />
         {typeof document === 'undefined' ? '__SERVER_STYLES__' : null}
       </head>
-      <body className="bg-medium-brown min-w-[320px] flex flex-col items-center justify-center min-h-screen antialiased px-10">
+      <body>
         <ThemeProvider theme={theme}>
           <Outlet />
         </ThemeProvider>
