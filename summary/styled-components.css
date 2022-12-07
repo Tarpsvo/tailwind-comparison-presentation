@@ -1,0 +1,214 @@
+body {
+  background-color: #a99e8c;
+  min-width: 320px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0 40px;
+} /*!sc*/
+
+data-styled.g13[id='sc-global-cVRFEG1'] {
+  content: 'sc-global-cVRFEG1,';
+} /*!sc*/
+
+.kpytsY {
+  background: #fff;
+  max-width: 1200px;
+  width: 100%;
+  padding: 48px 40px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+} /*!sc*/
+
+@media (min-width: 1024px) {
+  .kpytsY {
+    padding: 48px 96px 48px 48px;
+  }
+} /*!sc*/
+
+data-styled.g104[id='sc-ikHGee'] {
+  content: 'kpytsY,';
+} /*!sc*/
+
+.jjmTTO {
+  font-family: Josefin Sans, IBM Plex Sans, sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0 32px 32px 0;
+} /*!sc*/
+
+@media (min-width: 768px) {
+  .jjmTTO {
+    font-size: 48px;
+    line-height: 1;
+  }
+} /*!sc*/
+
+@media (min-width: 1024px) {
+  .jjmTTO {
+    font-size: 60px;
+    line-height: 1;
+  }
+} /*!sc*/
+
+data-styled.g105[id='sc-uhnfH'] {
+  content: 'jjmTTO,';
+} /*!sc*/
+
+.dceFUV {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+} /*!sc*/
+
+@media (min-width: 1024px) {
+  .dceFUV {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+} /*!sc*/
+
+data-styled.g106[id='sc-bhNKFk'] {
+  content: 'dceFUV,';
+} /*!sc*/
+
+.gBywpK {
+  max-width: 400px;
+  width: 100%;
+  background: rgba(, 0.5);
+  border-radius: 8px;
+} /*!sc*/
+
+@media (min-width: 1024px) {
+  .gBywpK {
+    margin-right: 48px;
+  }
+} /*!sc*/
+
+data-styled.g107[id='sc-eGJbfJ'] {
+  content: 'gBywpK,';
+} /*!sc*/
+
+.dmuWfA {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+} /*!sc*/
+
+@media (max-width: 1024px) {
+  .dmuWfA {
+    margin-top: 24px;
+  }
+} /*!sc*/
+
+data-styled.g108[id='sc-hAQmFe'] {
+  content: 'dmuWfA,';
+} /*!sc*/
+
+.cQSPhy {
+  font-family: IBM Plex Sans, sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+  font-weight: 700;
+} /*!sc*/
+
+data-styled.g109[id='sc-kZLDfD'] {
+  content: 'cQSPhy,';
+} /*!sc*/
+
+.gYezMW {
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+} /*!sc*/
+
+data-styled.g110[id='sc-xWrgk'] {
+  content: 'gYezMW,';
+} /*!sc*/
+
+.vumPw {
+  margin-top: auto;
+} /*!sc*/
+
+data-styled.g111[id='sc-dWRHGJ'] {
+  content: 'vumPw,';
+} /*!sc*/
+
+.cdABxP {
+  -webkit-transition: all 0.1s cubic-bezier(0.2, 0.8, 0, 1);
+  transition: all 0.1s cubic-bezier(0.2, 0.8, 0, 1);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+} /*!sc*/
+
+data-styled.g112[id='sc-jGNhvO'] {
+  content: 'cdABxP,';
+} /*!sc*/
+
+.iMeuac {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  font-family: Josefin Sans, IBM Plex Sans, sans-serif;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #000000;
+} /*!sc*/
+
+.iMeuac:hover .sc-jGNhvO {
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+  transform: translateY(-8px);
+} /*!sc*/
+
+data-styled.g113[id='sc-bQmOxr'] {
+  content: 'iMeuac,';
+} /*!sc*/
