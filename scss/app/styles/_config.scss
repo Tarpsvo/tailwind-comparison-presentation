@@ -1,0 +1,22 @@
+$lightGray: #ecede8;
+$white: #ffffff;
+$black: #000000;
+$beige: #e8b78b;
+$brown: #37322a;
+$lightBrown: #877e70;
+$mediumBrown: #a99e8c;
+$nearBlack: #12161b;
+
+$butter: cubic-bezier(0.2, 0.8, 0, 1);
+
+@mixin fontFamilyDisplay($fontWeight: 400) {
+  font-family: Josefin Sans, IBM Plex Sans, sans-serif;
+  font-weight: $fontWeight;
+  color: $black;
+}
+
+@mixin fontFamilyBody($fontWeight: 400) {
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: $fontWeight;
+  color: $black;
+}

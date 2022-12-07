@@ -1,0 +1,103 @@
+.box {
+  background: #fff;
+  max-width: 1200px;
+  width: 100%;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+
+  @media (min-width: 1024px) {
+    padding: 48px 96px 48px 48px;
+  }
+
+  &__heading {
+    @include fontFamilyDisplay(700);
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 32px 32px 0;
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+      line-height: 1;
+    }
+
+    @media (min-width: 1024px) {
+      font-size: 60px;
+      line-height: 1;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1024px) {
+      flex-direction: row;
+    }
+
+    &__img {
+      max-width: 400px;
+      width: 100%;
+      background: rgba(var(#{$black}), 0.5);
+      border-radius: 8px;
+
+      @media (min-width: 1024px) {
+        margin-right: 48px;
+      }
+    }
+
+    &__right-content {
+      display: flex;
+      flex-direction: column;
+
+      @media (max-width: 1024px) {
+        margin-top: 24px;
+      }
+
+      &__subtitle {
+        @include fontFamilyBody(700);
+        font-size: 24px;
+        line-height: 32px;
+        color: $black;
+      }
+
+      &__paragraph {
+        @include fontFamilyBody(400);
+        color: $black;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 12px;
+        margin-bottom: 24px;
+      }
+
+      &__button {
+        margin-top: auto;
+
+        &__link {
+          @include fontFamilyDisplay(400);
+          background: transparent;
+          border: none;
+          font-size: 20px;
+          line-height: 28px;
+          text-decoration: none;
+          color: $black;
+
+          &__content {
+            transition: all 0.1s $butter;
+            display: flex;
+            align-items: center;
+            transform: translateY(0);
+          }
+
+          &:hover {
+            .box__content__right-content__button__link__content {
+              transform: translateY(-8px);
+            }
+          }
+        }
+      }
+    }
+  }
+}

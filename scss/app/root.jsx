@@ -1,7 +1,5 @@
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@remix-run/react';
-import { ThemeProvider } from 'styled-components';
-import { GlobalStyles } from './styles/GlobalStyles';
-import { theme } from './styles/theme';
+import appStyles from '../styles/app.css';
 
 export const meta = () => ({
   charset: 'utf-8',
@@ -23,6 +21,10 @@ export const links = () => {
       rel: 'stylesheet',
       href: 'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;700&family=Josefin+Sans:wght@400;500;700&display=swap',
     },
+    {
+      rel: 'stylesheet',
+      href: appStyles,
+    },
   ];
 };
 
@@ -30,15 +32,11 @@ export default function App() {
   return (
     <html lang="en">
       <head>
-        <GlobalStyles />
         <Meta />
         <Links />
-        {typeof document === 'undefined' ? '__SERVER_STYLES__' : null}
       </head>
-      <body className="bg-medium-brown min-w-[320px] flex flex-col items-center justify-center min-h-screen antialiased px-10">
-        <ThemeProvider theme={theme}>
-          <Outlet />
-        </ThemeProvider>
+      <body>
+        <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

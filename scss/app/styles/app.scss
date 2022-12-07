@@ -1,0 +1,16 @@
+@import '_config.scss';
+
+body {
+  background-color: $mediumBrown;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0 40px;
+}
+
+@import 'index.scss';

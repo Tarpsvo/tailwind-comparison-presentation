@@ -1,3 +1,120 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+body {
+  background-color: #a99e8c;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0 40px;
+}
+
+.box {
+  background: #fff;
+  max-width: 1200px;
+  width: 100%;
+  padding: 48px 40px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 1024px) {
+  .box {
+    padding: 48px 96px 48px 48px;
+  }
+}
+.box__heading {
+  font-family: Josefin Sans, IBM Plex Sans, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0 32px 32px 0;
+}
+@media (min-width: 768px) {
+  .box__heading {
+    font-size: 48px;
+    line-height: 1;
+  }
+}
+@media (min-width: 1024px) {
+  .box__heading {
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+.box__content {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .box__content {
+    flex-direction: row;
+  }
+}
+.box__content__img {
+  max-width: 400px;
+  width: 100%;
+  background: rgba(var(#000000), 0.5);
+  border-radius: 8px;
+}
+@media (min-width: 1024px) {
+  .box__content__img {
+    margin-right: 48px;
+  }
+}
+.box__content__right-content {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1024px) {
+  .box__content__right-content {
+    margin-top: 24px;
+  }
+}
+.box__content__right-content__subtitle {
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  line-height: 32px;
+  color: #000000;
+}
+.box__content__right-content__paragraph {
+  font-family: IBM Plex Sans, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  color: #000000;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+.box__content__right-content__button {
+  margin-top: auto;
+}
+.box__content__right-content__button__link {
+  font-family: Josefin Sans, IBM Plex Sans, sans-serif;
+  font-weight: 400;
+  color: #000000;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #000000;
+}
+.box__content__right-content__button__link__content {
+  transition: all 0.1s cubic-bezier(0.2, 0.8, 0, 1);
+  display: flex;
+  align-items: center;
+  transform: translateY(0);
+}
+.box__content__right-content__button__link:hover .box__content__right-content__button__link__content {
+  transform: translateY(-8px);
+}
+
+/*# sourceMappingURL=app.css.map */
